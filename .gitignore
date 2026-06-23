@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+backend/models/
+*.egg-info/
+dist/
+build/
+
+# React Native
+DetectorIAApp/node_modules/
+DetectorIAApp/android/.gradle/
+DetectorIAApp/android/app/build/
+DetectorIAApp/android/build/
+DetectorIAApp/.expo/
+DetectorIAApp/*.log
+DetectorIAApp/android/local.properties
+DetectorIAApp/android/app/debug.keystore
+
+# General
+.DS_Store
+Thumbs.db
+*.tmp
+.claude/
+backend/test_sintetico.wav
